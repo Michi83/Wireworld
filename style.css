@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    height: 32px;
+    min-width: 32px;
+}
+
+td#button0 {
+    background-color: #2A2D2F;
+}
+
+td#button1 {
+    background-color: #F7B500;
+}
+
+td#button2 {
+    background-color: #0E518D;
+}
+
+td#button3 {
+    background-color: #C1121C;
+}
+
+td#button4 {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+td.active {
+    outline-color: #FF0000;
+    outline-style: solid;
+}
